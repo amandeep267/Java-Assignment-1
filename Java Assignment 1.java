@@ -20,10 +20,11 @@ class Main
                 {  flag=true;
                     System.out.println("File found");
                 System.out.println(str);
-                System.out.println("Path : "+ file.getAbsolutePath());}
+                System.out.println("Path : "+ file.getAbsolutePath());
+                }
             }
             if(flag!=true)
-            {System.out.println("File not found ,try again");}
+            System.out.println("File not found ,try again");
 
 
         }
